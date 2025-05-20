@@ -11,9 +11,9 @@ body {
     box-sizing: border-box;
 }
 
-@media (min-width: 968px) {
+@media (min-width: 1268px) {
     .article {
-        max-width: 900px;
+        max-width: 1300px;
         margin: 0 auto;
     }
 }
