@@ -7,13 +7,32 @@ body {
 
 .article {
     max-width: 100%;
-    padding: 16px;
+    padding: 18px;
     box-sizing: border-box;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 968px) {
     .article {
-        max-width: 700px;
+        max-width: 900px;
         margin: 0 auto;
     }
+}
+.btn-action {
+    background-color: #3182ce;
+    color: white;
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.btn-action:hover {
+    background-color: #2b6cb0;
+}
+
+.btn-action i {
+    margin-left: 6px;
 }
